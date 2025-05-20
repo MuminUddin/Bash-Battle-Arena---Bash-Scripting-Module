@@ -4,5 +4,5 @@
 **Bootcamp**: CoderCo
 
 ## 📚 What's Here?  
-Key Learning  
-Bash Battle Arena solutions
+- **Key Learning**  
+- **Bash Battle Arena Workings & Solutions**
