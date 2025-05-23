@@ -10,6 +10,7 @@
 **Solution**:  
 
 ``` bash
+#!/bin/bash  
 battlefield_filepath="/Users/mumin/Battlefield/"
 
 echo "Creating Battlefield directory..."
