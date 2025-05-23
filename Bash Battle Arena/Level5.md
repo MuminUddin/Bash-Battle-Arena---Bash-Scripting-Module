@@ -9,3 +9,24 @@
 
 **Solution**:  
 
+``` bash
+battlefield_filepath="/Users/mumin/Battlefield/"
+
+echo "Creating Battlefield directory..."
+mkdir -p "$battlefield_filepath"
+
+echo "Creating files..."
+touch "$battlefield_filepath"/{knight.txt,sorcerer.txt,rogue.txt}
+
+if [[ -f "/Users/mumin/Battlefield/knight.txt" ]]; then
+echo "Creating Archive directory..."
+mkdir -p "/Users/mumin/Archive/"
+mv "/Users/mumin/Battlefield/knight.txt" "/Users/mumin/Archive/"
+echo "File has been moved to Archive"
+fi
+
+echo "Battlefield contents:"
+ls -l /Users/mumin/Battlefield/
+
+echo "Archive contents:"
+ls -l /Users/mumin/Archive/
