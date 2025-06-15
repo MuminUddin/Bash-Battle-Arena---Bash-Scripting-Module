@@ -4,7 +4,5 @@
 
 **Solution**:  
 `mkdir Arena`  
-`vim waarior.txt`  
-`vim mage.txt`  
-`vim archer.txt`  
+`touch warior.txt mage.txt archer.txt`  
 `ls -l`
