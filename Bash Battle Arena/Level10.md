@@ -11,4 +11,7 @@ Write a script that:
 5. Checks if any of the files contain the word 'Victory', and if found, moves the file to a directory called Victory_Archive.  
 
 **Solution**:  
+```bash  
+mkdir Arena_Boss  
+touch file{1..5}.txt
 
